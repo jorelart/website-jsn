@@ -1,0 +1,40 @@
+CRITICAL - 2023-03-08 00:54:18 --> Invalid file: "pages/services/virtual-private-network.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/services/virtual-private-network.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/services/virtual-private-network', [], true)
+ 3 APPPATH\Controllers\Pages.php(66): view('pages/services/virtual-private-network', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->vpn()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 07:54:37 --> Invalid file: "pages/services/blogs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/services/blogs.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/services/blogs', [], true)
+ 3 APPPATH\Controllers\Pages.php(64): view('pages/services/blogs', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->blog()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 07:55:46 --> Invalid file: "pages/services/blogs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/services/blogs.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/services/blogs', [], true)
+ 3 APPPATH\Controllers\Pages.php(64): view('pages/services/blogs', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->blog()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 07:56:10 --> Invalid file: "pages/services/blog.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/services/blog.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/services/blog', [], true)
+ 3 APPPATH\Controllers\Pages.php(64): view('pages/services/blog', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->blog()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

@@ -1,0 +1,940 @@
+INFO - 2023-05-07 08:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 08:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 08:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 08:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 08:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 08:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 10:11:58 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\User\Pages.php on line 82.
+ 1 APPPATH\Controllers\User\Pages.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\User\\Pages.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User\Pages->page('service-details.html')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 10:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 10:40:40 --> Undefined array key "description"
+in APPPATH\Views\users\partial\service-grid-section.php on line 13.
+ 1 APPPATH\Views\users\partial\service-grid-section.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "description"', 'APPPATH\\Views\\users\\partial\\service-grid-section.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users\\partial\\service-grid-section.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('users/partial/service-grid-section', null, true)
+ 5 APPPATH\Views\users\pages\services.php(7): CodeIgniter\View\View->include('users/partial/service-grid-section')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users\\pages\\services.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('users/pages/services', [], true)
+ 9 APPPATH\Controllers\User\Pages.php(97): view('users/pages/services', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User\Pages->page('services')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 10:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 10:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 13:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 14:17:53 --> Undefined variable $service
+in APPPATH\Views\admin\pages\index.php on line 96.
+ 1 APPPATH\Views\admin\pages\index.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $service', 'APPPATH\\Views\\admin\\pages\\index.php', 96)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Admin\Profile.php(28): view('admin/pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 14:24:25 --> Invalid file: "users/pages/virtual-private-network.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/pages/virtual-private-network.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('users/pages/virtual-private-network', [], true)
+ 3 APPPATH\Controllers\User\Pages.php(94): view('users/pages/virtual-private-network', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User\Pages->page('virtual-private-network')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 14:27:12 --> Undefined variable $services
+in APPPATH\Views\users\layout\navbar.php on line 26.
+ 1 APPPATH\Views\users\layout\navbar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $services', 'APPPATH\\Views\\users\\layout\\navbar.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('users/layout/navbar', null, true)
+ 5 APPPATH\Views\users\layout\template.php(70): CodeIgniter\View\View->include('users/layout/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('users/layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('users/pages/contact', [], true)
+10 APPPATH\Controllers\User\Pages.php(94): view('users/pages/contact', [...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User\Pages->page('contact')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 14:27:37 --> Undefined variable $services
+in APPPATH\Views\users\layout\navbar.php on line 26.
+ 1 APPPATH\Views\users\layout\navbar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $services', 'APPPATH\\Views\\users\\layout\\navbar.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('users/layout/navbar', null, true)
+ 5 APPPATH\Views\users\layout\template.php(70): CodeIgniter\View\View->include('users/layout/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('users/layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('users/pages/partnership', [], true)
+10 APPPATH\Controllers\User\Pages.php(94): view('users/pages/partnership', [...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User\Pages->page('partnership')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 14:29:50 --> Undefined variable $services
+in APPPATH\Views\users\layout\navbar.php on line 26.
+ 1 APPPATH\Views\users\layout\navbar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $services', 'APPPATH\\Views\\users\\layout\\navbar.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('users/layout/navbar', null, true)
+ 5 APPPATH\Views\users\layout\template.php(70): CodeIgniter\View\View->include('users/layout/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('users/layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('users/pages/profile', [], true)
+10 APPPATH\Controllers\User\Pages.php(94): view('users/pages/profile', [...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User\Pages->page('profile')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 14:30:26 --> Undefined variable $services
+in APPPATH\Views\users\layout\navbar.php on line 26.
+ 1 APPPATH\Views\users\layout\navbar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $services', 'APPPATH\\Views\\users\\layout\\navbar.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('users/layout/navbar', null, true)
+ 5 APPPATH\Views\users\layout\template.php(70): CodeIgniter\View\View->include('users/layout/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('users/layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('users/pages/branch', [], true)
+10 APPPATH\Controllers\User\Pages.php(94): view('users/pages/branch', [...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User\Pages->page('branch')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 14:34:09 --> Undefined variable $service
+in APPPATH\Views\users\partial\service-grid-section.php on line 5.
+ 1 APPPATH\Views\users\partial\service-grid-section.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $service', 'APPPATH\\Views\\users\\partial\\service-grid-section.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users\\partial\\service-grid-section.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('users/partial/service-grid-section', null, true)
+ 5 APPPATH\Views\users\pages\services.php(7): CodeIgniter\View\View->include('users/partial/service-grid-section')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users\\pages\\services.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('users/pages/services', [], true)
+ 9 APPPATH\Controllers\User\Pages.php(94): view('users/pages/services', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User\Pages->page('services')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 14:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:35:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:35:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 14:35:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\pages\service.php on line 31.
+ 1 APPPATH\Views\admin\pages\service.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\pages\\service.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\service.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pages/service', [], true)
+ 5 APPPATH\Controllers\Admin\Services.php(50): view('admin/pages/service', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Services->page('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-05-07 14:35:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:39:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:39:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:39:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:41:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:42:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:42:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:43:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:44:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:44:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:45:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:45:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:46:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:48:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:49:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:49:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:49:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:50:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:51:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:52:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:52:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:52:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:52:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:52:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:53:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:54:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:55:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 14:56:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 14:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:00:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:01:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:01:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 15:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:02:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:02:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 15:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:04:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:04:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:04:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:05:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 15:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 15:05:41 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\User\Pages.php on line 103.
+ 1 APPPATH\Controllers\User\Pages.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\User\\Pages.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User\Pages->services('create')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 15:06:39 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\User\Pages.php on line 103.
+ 1 APPPATH\Controllers\User\Pages.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\User\\Pages.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User\Pages->services('create')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-05-07 15:06:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:06:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 15:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 15:06:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\User\Pages.php on line 103.
+ 1 APPPATH\Controllers\User\Pages.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\User\\Pages.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User\Pages->services('create')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 15:07:58 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\User\Pages.php on line 103.
+ 1 APPPATH\Controllers\User\Pages.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\User\\Pages.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User\Pages->services('create')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-05-07 15:07:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:08:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 15:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 15:08:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\User\Pages.php on line 103.
+ 1 APPPATH\Controllers\User\Pages.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\User\\Pages.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User\Pages->services('create')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-05-07 15:09:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-07 15:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 15:09:34 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\User\Pages.php on line 103.
+ 1 APPPATH\Controllers\User\Pages.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\User\\Pages.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User\Pages->services('create')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-05-07 15:09:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:09:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:09:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 15:09:54 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\pages\service.php on line 31.
+ 1 APPPATH\Views\admin\pages\service.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\pages\\service.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\service.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pages/service', [], true)
+ 5 APPPATH\Controllers\Admin\Services.php(50): view('admin/pages/service', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Services->page('create')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-05-07 15:11:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 15:11:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\pages\service.php on line 31.
+ 1 APPPATH\Views\admin\pages\service.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\pages\\service.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\service.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pages/service', [], true)
+ 5 APPPATH\Controllers\Admin\Services.php(50): view('admin/pages/service', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Services->page('create')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-05-07 15:11:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:11:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 15:11:17 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\pages\service.php on line 31.
+ 1 APPPATH\Views\admin\pages\service.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\pages\\service.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\service.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pages/service', [], true)
+ 5 APPPATH\Controllers\Admin\Services.php(50): view('admin/pages/service', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Services->page('create')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-05-07 15:12:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 15:12:03 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\pages\service.php on line 31.
+ 1 APPPATH\Views\admin\pages\service.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\pages\\service.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\service.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pages/service', [], true)
+ 5 APPPATH\Controllers\Admin\Services.php(50): view('admin/pages/service', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Services->page('create')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-05-07 15:13:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:13:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:13:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 15:13:17 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\pages\service.php on line 31.
+ 1 APPPATH\Views\admin\pages\service.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\pages\\service.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\service.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pages/service', [], true)
+ 5 APPPATH\Controllers\Admin\Services.php(50): view('admin/pages/service', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Services->page('create')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-05-07 15:14:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:14:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 15:14:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\pages\service.php on line 31.
+ 1 APPPATH\Views\admin\pages\service.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\pages\\service.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\service.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pages/service', [], true)
+ 5 APPPATH\Controllers\Admin\Services.php(50): view('admin/pages/service', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Services->page('create')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-05-07 15:14:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:14:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:14:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 15:14:43 --> Too few arguments to function App\Controllers\Admin\Services::create(), 0 passed in D:\Xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Admin\Services.php on line 126.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Services->create()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-05-07 15:15:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:15:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:18:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:20:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:20:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:25:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:25:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 15:25:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\pages\service.php on line 31.
+ 1 APPPATH\Views\admin\pages\service.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\pages\\service.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\service.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pages/service', [], true)
+ 5 APPPATH\Controllers\Admin\Services.php(50): view('admin/pages/service', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Services->page('fontawesome-iconpicker.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-05-07 15:25:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 15:25:07 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\pages\service.php on line 31.
+ 1 APPPATH\Views\admin\pages\service.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\pages\\service.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\service.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pages/service', [], true)
+ 5 APPPATH\Controllers\Admin\Services.php(50): view('admin/pages/service', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Services->page('fontawesome-iconpicker.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-05-07 15:25:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-07 15:25:15 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\pages\service.php on line 31.
+ 1 APPPATH\Views\admin\pages\service.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\pages\\service.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\service.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pages/service', [], true)
+ 5 APPPATH\Controllers\Admin\Services.php(50): view('admin/pages/service', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Services->page('fontawesome-iconpicker.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+WARNING - 2023-05-07 15:32:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:33:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:34:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:35:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:35:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:36:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:39:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:40:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-07 15:42:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Services::$ is deprecated in APPPATH\Controllers\Admin\Services.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Services->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-07 15:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,10 @@
+CRITICAL - 2023-03-09 06:10:50 --> syntax error, unexpected token ":", expecting "," or ";"
+in APPPATH\Views\pages\partnership.php on line 127.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/partnership', [], true)
+ 3 APPPATH\Controllers\Pages.php(47): view('pages/partnership', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->partnership()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
